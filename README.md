@@ -1,117 +1,92 @@
-<h1 align='center'>🔥Realtime Violence Detection WebApp - DL | OPENCV | STREAMLIT🔥</h1>
+🚨 Violence Detection System
 
-<p align="center">
- 
-  ![realtime Non violence detection](https://github.com/siddhu1919/Realtime-Violence-Detection_Using-DeepLearning-OpenCV-Streamlit/assets/85176765/dce6a3b5-d965-4e4d-bdec-5eb5ba275345)
+A deep-learning based application for detecting violent and non-violent activities from video input.
 
-</p>
+📌 Project Overview
 
-<p align="center">
-  Utilizing the power of Deep Learning, Python, OpenCV, and Streamlit, we present an elegant and intuitive web application designed to detect violence in real-time. Featuring a stunning user interface with seamless functionality, this app stands at the forefront of safety and technology.
-</p>
+This project uses computer vision and deep learning techniques to analyze video and identify whether the observed activity is violent or non-violent. The system can process video input and provide the detection result through an easy-to-use interface.
 
----
+The project is intended as an academic demonstration of how artificial intelligence can be applied to video-based safety monitoring.
 
-### 🌟 Features
+✨ Features
 
-- **Real-Time Violence Detection**: Leveraging a sophisticated deep learning model to analyze and detect violent behaviors in video streams.
-- **Frame Capture & Storage**: Automatically captures frames from the video stream, storing them in a dedicated folder for further analysis.
-- **Batch Processing**: Utilizes batches of 16 frames for efficient and accurate violence detection.
-- **Interactive UI**: A beautifully crafted user interface with Start, Stop, Predict, and Delete buttons for easy control and management.
-- **Streamlit WebApp**: Built with Streamlit, ensuring a smooth and responsive experience.
+* 🎥 Video-based violence detection
+* 🧠 Deep learning based classification
+* 📹 OpenCV for video processing
+* 🖥️ Streamlit-based interface
+* ⚡ Supports analysis of video input
+* 📊 Displays the detection result
+* 💾 Can be used with sample video files for testing
 
----
+🛠️ Technologies Used
 
-### 🚀 Quick Start
+* Python
+* OpenCV
+* Deep Learning
+* TensorFlow / Keras
+* Streamlit
+* NumPy
+* Jupyter Notebook
 
-1. **Clone the Repository**
+📂 Project Structure
 
- ```
- git clone https://github.com/siddhu1919/Realtime-Violence-Detection_Using-DeepLearning-OpenCV-Streamlit.git
- ```
+violence-detection-system/
+│
+├── models/
+├── Video_Voilence_detection_with_details (1).ipynb
+├── main.py
+├── predict.py
+├── predict2.py
+├── requirements.txt
+├── README.md
+└── sample video files
 
-3. **Install Requirements**
+🚀 How to Run
 
-Ensure you have Python installed, then run:
-   
-  ```
-  python -m pip install -r requirements.txt
-  ```
+1. Clone the repository
 
-3. **Launch the WebApp **
+git clone https://github.com/penigalapatisrivalli-design/violence-detection-system.git
+cd violence-detection-system
 
-```
-streamlit run main3.py
-```
+2. Install the required libraries
 
+pip install -r requirements.txt
 
-Navigate to the URL provided in the command line output to access the web app.
+3. Run the application
 
----
+Depending on the application file being used:
 
-### 📂 Project Structure
+streamlit run main.py
 
-- `main3.py`: The main Streamlit application file.
-- `model/`: Directory containing the deep learning model files.
-- `frames/`: Folder where captured frames are stored.
-- `requirements.txt`: Lists all the Python dependencies.
+4. Test the system
 
----
+Upload or provide a suitable video and allow the application to process it. The system will analyze the video and display the predicted activity.
 
-### 🔗 Download Models from Drive 
-- `Download`: The Models folder and Paste in root directory.
-- [Drive Link 🚗](https://drive.google.com/drive/folders/1as5dVbfdz7WRFYcI0Ce2QGRzC3-TBgtH?usp=drive_link) 
+📓 Notebook
 
----
-### 🛠️ Built With
+The repository also contains the Jupyter Notebook:
 
-- **Python** - The programming language used.
-- **OpenCV** - For capturing and processing video frames.
-- **Deep Learning Model** - The core algorithm for violence detection.
-- **Streamlit** - For creating the web application.
-- **Beautiful UI** - Designed with attention to detail for a great user experience.
+Video_Voilence_detection_with_details (1).ipynb
 
----
+It contains the development and experimentation work related to the video violence-detection system.
 
-### 📸 Screenshots
+🔮 Future Improvements
 
+* Improve detection accuracy with a larger and more diverse dataset
+* Add real-time CCTV/webcam monitoring
+* Add an automatic alert when violence is detected
+* Improve the user interface
+* Reduce false detections
+* Deploy the system as a web application
 
-![1](https://github.com/siddhu1919/Realtime-Violence-Detection_Using-DeepLearning-OpenCV-Streamlit/assets/85176765/18f24e9b-0939-41f6-9db2-3e60618297ab)
+📚 Reference
 
-![2](https://github.com/siddhu1919/Realtime-Violence-Detection_Using-DeepLearning-OpenCV-Streamlit/assets/85176765/d152ec2f-21f1-4f4d-a53f-218b297ef96c)
+This project is based on and developed from an existing open-source violence-detection project:
 
-![3](https://github.com/siddhu1919/Realtime-Violence-Detection_Using-DeepLearning-OpenCV-Streamlit/assets/85176765/921cc729-83e9-4141-bdd2-be0e14636943)
+https://github.com/siddhu1919/Realtime-Violence-Detection_Using-DeepLearning-OpenCV-Streamlit
 
+The original project and its contributors are acknowledged here for the base implementation and ideas.
 
+⚠️ Disclaimer
 
-
-
----
-
-### 🔒 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
-
----
-
-### 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check .
-
-Follow This Contributors :
-## 1. [Siddhant G Singh](https://www.linkedin.com/in/siddhantsingh1230/) ⭐
-## - [<img height="30" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png">](https://github.com/Siddhantsingh1230) 
-
-
-
-
-
----
-
-### 💖 Support
-
-Loved this project? Consider giving it a ⭐ on [[GitHub]](https://github.com/siddhu1919) and sharing it with your friends!
-
----
-
-<p align="center">Made with ❤️ and 🚀 by <a href="https://www.linkedin.com/in/siddharth-g-singh-46b610201/"> S I D D H A R T H . G . S I N G H </a></p>
+This project is intended for educational and research purposes. Violence detection predictions may not always be accurate and should not be treated as a replacement for human judgment or professional security systems.
